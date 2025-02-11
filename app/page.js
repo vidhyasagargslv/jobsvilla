@@ -10,7 +10,7 @@ export default function Home() {
   const [selectedCompany, setSelectedCompany] = useState("");
   const [page, setPage] = useState(1);
   const [allCompanies, setAllCompanies] = useState([]);
-  const ITEMS_PER_PAGE = 15; 
+  const ITEMS_PER_PAGE = 5; 
 
   // Fetch all jobs at once
   const fetchAllJobs = async () => {
