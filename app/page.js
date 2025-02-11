@@ -1,7 +1,7 @@
 "use client"
 import { useEffect, useState } from "react";
-import JobList from "@/Components/JobList";
-import SearchAndFilter from "@/Components/SearchAndFilter";
+import JobList from "@/components/JobList";
+import SearchAndFilter from "@/components/SearchAndFilter";
 
 export default function Home() {
   const [allJobs, setAllJobs] = useState([]); 
